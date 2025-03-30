@@ -5,9 +5,9 @@ pipeline {
         maven 'maven3'
     }
     environment {
-        SCANNER_HOME = tool 'sonar-scanner'
+        SCANNER_HOME = tool 'sonar-server'
         SONARQUBE_SERVER = 'sonar-server' // The name of your SonarQube server
-        SLACK_CHANNEL = 'jenkins-alert' // Slack channel for notifications
+        SLACK_CHANNEL = 'my-channel' // Slack channel for notifications
         ARTIFACTS_DIR = "target"  // Directory for generated artifacts
         MAVEN_OPTS = '--add-opens java.base/java.lang=ALL-UNNAMED'
     }
