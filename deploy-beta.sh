@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define beta server details (modify as necessary)
-BETA_SERVER="<beta_IP>"
+BETA_SERVER="18.191.157.97"
 BETA_USER="ubuntu"
 BETA_DIR="/opt/application"
 TOMCAT_DIR="/opt/tomcat"
