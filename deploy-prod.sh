@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define production server details (modify as necessary)
-PROD_SERVER="<prod_ip>"
+PROD_SERVER="3.137.177.11"
 PROD_USER="ubuntu"
 PROD_DIR="/opt/application"
 TOMCAT_DIR="/opt/tomcat"
