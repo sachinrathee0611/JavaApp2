@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define staging server details (modify as necessary)
-STAGING_SERVER="<stage-IP>"
+STAGING_SERVER="18.191.135.109"
 STAGING_USER="ubuntu"  #ubuntu
 STAGING_DIR="/opt/application"
 TOMCAT_DIR="/opt/tomcat"
